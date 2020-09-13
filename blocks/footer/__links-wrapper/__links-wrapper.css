@@ -1,0 +1,15 @@
+.footer__links-wrapper {
+    display: flex; 
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 540px) {
+    .footer__links-wrapper {
+        display: block;
+        margin-bottom: 48px;
+    }
+}
